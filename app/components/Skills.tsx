@@ -1,5 +1,6 @@
 'use client'
 
+// Updated Skills component with FontAwesome icons
 import { motion } from 'framer-motion'
 import {
   FaPython,
