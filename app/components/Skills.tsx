@@ -13,8 +13,8 @@ import {
   FaTable,
   FaChartLine,
   FaJira,
+  FaChartPie
 } from 'react-icons/fa'
-import { SiTableau, SiPowerbi, SiJira } from 'react-icons/si'
 
 const skillCategories = [
   {
@@ -39,7 +39,7 @@ const skillCategories = [
     title: 'Tools & Platforms',
     skills: [
       { name: 'Tableau', icon: FaTable },
-      { name: 'Power BI', icon: FaChartLine },
+      { name: 'Power BI', icon: FaChartPie },
       { name: 'Jira', icon: FaJira },
       { name: 'MySQL', icon: FaDatabase },
     ],
