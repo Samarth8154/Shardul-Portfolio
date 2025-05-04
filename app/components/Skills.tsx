@@ -40,7 +40,7 @@ const skillCategories = [
     title: 'Tools & Platforms',
     skills: [
       { name: 'Tableau', icon: FaTable },
-      { name: 'Power BI', icon: FaChartPie },
+      { name: 'Power BI', icon: FaChartBar },
       { name: 'Jira', icon: FaJira },
       { name: 'MySQL', icon: FaDatabase },
     ],
