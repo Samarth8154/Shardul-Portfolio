@@ -9,14 +9,14 @@ const education = [
     school: 'San Jose State University',
     location: 'San Jose, California',
     period: '2019 - 2021',
-    
+    gpa: 'GPA: 3.8/4.0'
   },
   {
     degree: 'Bachelor of Engineering, Mechanical Engineering',
     school: 'Savitribai Phule Pune University',
     location: 'Pune, India',
     period: '2013 - 2017',
-    
+    gpa: 'GPA: 3.6/4.0'
   }
 ]
 
@@ -51,7 +51,7 @@ export default function Education() {
                   <p className="text-gray-400">{edu.location}</p>
                   <div className="flex items-center gap-4 mt-2 text-gray-400">
                     <span>{edu.period}</span>
-                    <span className="text-blue-400 font-semibold">{edu.gpa}</span>
+                    {edu.gpa && <span className="text-blue-400 font-semibold">{edu.gpa}</span>}
                   </div>
                 </div>
               </div>

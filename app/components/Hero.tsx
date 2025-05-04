@@ -48,7 +48,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-xl md:text-2xl text-gray-300 mb-8"
         >
-          AI/ML Product Manager | Data-Driven Innovator
+          Product Manager | Data-Driven Innovator
         </motion.h2>
 
         <motion.div
