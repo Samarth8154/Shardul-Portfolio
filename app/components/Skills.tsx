@@ -13,8 +13,7 @@ import {
   FaCogs,
   FaTable,
   FaChartLine,
-  FaJira,
-  FaChartPie
+  FaJira
 } from 'react-icons/fa'
 
 const skillCategories = [
